@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Merriweather:wght@300&display=swap');
+
+
+body{
+    background-color: bisque;
+
+}
+.sound{
+    font-size: 25px;
+    color: blue;
+    height: 20px;
+    font-weight: 500;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    padding: 0 10px;
+}
+nav{
+  
+  font-family:  'Merriweather', serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 58px;
+     background-color: black; 
+    color: white;
+}
+.songitemcontainer{
+    margin-top: 23px;
+    margin-left: -250px;
+    
+    /* background-color: red; */
+}
+.debate img{
+  width: 52px;
+  padding: 0 6px;
+}
+.debate{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    
+}
+
+.container{
+    min-height: 65vh;
+    background-color:rgb(30 215 96);
+    color: white;
+    font-family: 'Boogaloo', cursive;
+    display: flex;
+    width: 60%;
+    margin: 25px auto;
+    padding: 30px;
+    border-radius: 12px;
+    background-image: url("song/micmic1.jpg");
+    background-size: 400px 600px ;
+    background-repeat: no-repeat;
+    background-position: 100% 0px;
+    /* background-color: yellowgreen; */
+    
+}
+
+.bottom{
+    
+    height: 90px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.icon{
+    margin-top: 10px;
+    height: 24px;
+    font-size: 30px;
+}
+.icon{
+    cursor: pointer;
+}
+#progressBar{
+    width: 89vw;
+    cursor: pointer;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 23px 0px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    
+    
+
+
+}
+.songItem img{
+    width: 43px;
+    margin: 0 10px;
+    border-radius: 35px;
+}
+.Timelapse{
+    margin: 0 25px;
+    
+}
+.Timelapse i {
+    cursor: pointer;
+}
+.songitemcontainer{
+    margin-top: 33px;
+}
